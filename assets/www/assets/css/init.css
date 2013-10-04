@@ -1,0 +1,25 @@
+body{
+  background: blue;
+}
+
+canvas {
+  /**1024x576**/
+  display: block;
+  width: 480px;
+  height: 260px;
+  
+}
+
+#canvasBg {
+  margin: auto;
+  background-color: white;
+}
+
+#canvasObject, #canvasPlayer  {
+  margin: -500px auto 0px;
+}
+
+#jumpBtn {
+	display: block;
+	width: 340px;
+}
